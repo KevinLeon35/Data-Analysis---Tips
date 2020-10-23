@@ -10,3 +10,10 @@ import seaborn as sns
 
 tips = sns.load_dataset('tips')   #use the sns module to load default tips dataframe within sns, store it as tips. data_source generating
 
+tips.head() #show the top 5 rows of tips
+
+tips.describe()
+
+tips.groupby()
+
+tips.info()
